@@ -9,13 +9,13 @@ AI Internship Projects and Assignments
 This project is a supervised machine learning model that classifies Iris flowers into three species:
 Setosa, Versicolor, and Virginica.
 
-It uses flower features like:
+It uses features like:
 - Sepal length  
 - Sepal width  
 - Petal length  
 - Petal width  
 
-The model uses the **K-Nearest Neighbors (KNN)** algorithm.
+The model uses the K-Nearest Neighbors (KNN) algorithm.
 
 ---
 
@@ -32,3 +32,5 @@ The model uses the **K-Nearest Neighbors (KNN)** algorithm.
 ## ⚙️ How to Run
 
 ### Step 1: Install dependencies
+```bash
+pip install scikit-learn
