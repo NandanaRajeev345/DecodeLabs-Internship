@@ -56,3 +56,44 @@ This project is a content-based recommendation system that suggests job roles ba
 Cloud Architect  
 DevOps Engineer  
 Data Scientist  
+
+
+
+# Project 4 - Text Recognition using OCR
+
+## Objective
+
+To extract text from an image using Optical Character Recognition (OCR).
+
+## Tools and Libraries Used
+
+* Python
+* OpenCV
+* Pytesseract
+* Tesseract OCR Engine
+
+## Project Description
+
+This project demonstrates basic text recognition from images using a pre-trained OCR model. The input image is first preprocessed by converting it to grayscale. The Tesseract OCR engine is then used to identify and extract text from the image.
+
+## Steps Performed
+
+1. Load the image using OpenCV.
+2. Convert the image to grayscale.
+3. Apply basic preprocessing.
+4. Extract text using Tesseract OCR.
+5. Display the recognized text.
+
+## Files
+
+* project4.py : Main Python program
+* sample.jpg : Input image containing text
+* README.md : Project documentation
+
+## Output
+
+The program successfully detects and displays text present in the input image.
+
+## Conclusion
+
+A basic OCR system was implemented using Python and Tesseract OCR. The project demonstrates how pre-trained models can be used for text recognition tasks.
